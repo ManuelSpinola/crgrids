@@ -6,6 +6,8 @@
 \alias{crgrids-package}
 \title{crgrids: crgrids: Spatial grids for Costa Rica}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Contains spatial grids for Costa Rica (1km, 2km, 4km, 8km).
 }
 \seealso{
