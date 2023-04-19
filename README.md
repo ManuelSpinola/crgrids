@@ -31,7 +31,7 @@ library(crgrids)
 
 ``` r
 ggplot(cr_grid_8km) +
-  geom_sf(fill = "dodgerblue4", color = "gray") +
+  geom_sf(fill = "dodgerblue3", color = "gray") +
   theme_minimal()
 ```
 
