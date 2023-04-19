@@ -8,6 +8,8 @@
 
 The goal of crgrids is to provides spatial grids for Costa Rica.
 
+Square spatial grids of 1km, 2km, 4km, and 8km.
+
 ## Installation
 
 You can install the development version of crgrids from
@@ -26,7 +28,6 @@ This is a basic example which shows you how to use crgrids:
 library(tidyverse)
 library(sf)
 library(crgrids)
-## basic example code
 ```
 
 ``` r

@@ -20,6 +20,8 @@ knitr::opts_chunk$set(
 
 The goal of crgrids is to provides spatial grids for Costa Rica.
 
+Square spatial grids of 1km, 2km, 4km, and 8km. 
+
 ## Installation
 
 You can install the development version of crgrids from [GitHub](https://github.com/) with:
@@ -37,7 +39,6 @@ This is a basic example which shows you how to use crgrids:
 library(tidyverse)
 library(sf)
 library(crgrids)
-## basic example code
 ```
 
 ```{r cr_grid_8km}
