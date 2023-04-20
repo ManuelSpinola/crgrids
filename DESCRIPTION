@@ -2,7 +2,16 @@ Package: crgrids
 Type: Package
 Title: crgrids: Spatial grids for Costa Rica
 Version: 0.1.0
-Author: Manuel Spínola
+Authors@R: 
+  c(person(given = "Manuel",
+           family = "Spínola",
+           role = c("aut", "cre"),
+           email = "mspinola10@gmail.com",
+           comment = c(ORCID = "0000-0002-7839-1908")),
+    person(given = "Guido",
+           family = "Saborío",
+           role = "aut",
+           comment = c(ORCID = "0000-0001-9490-2459"))
 Maintainer: Manuel Spínola <mspinola10@gmail.com>
 Description: Contains spatial grids for Costa Rica (1km,
     2km, 4km, 8km).
