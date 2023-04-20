@@ -18,4 +18,13 @@ Useful links:
 }
 
 }
+\author{
+\strong{Maintainer}: Manuel Spínola \email{mspinola10@gmail.com} (\href{https://orcid.org/0000-0002-7839-1908}{ORCID})
+
+Authors:
+\itemize{
+  \item Guido Saborío (\href{https://orcid.org/0000-0001-9490-2459}{ORCID})
+}
+
+}
 \keyword{internal}
