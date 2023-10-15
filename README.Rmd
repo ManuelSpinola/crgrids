@@ -1,4 +1,5 @@
 ---
+title: "crgrids: hierarchical geospatial grids for Costa Rica"
 output: github_document
 ---
 
@@ -20,7 +21,7 @@ knitr::opts_chunk$set(
 
 The goal of crgrids is to provides spatial grids for Costa Rica.
 
-Square spatial grids of 1km, 2km, 4km, and 8km. 
+Square spatial grids of 1km, 2km, 4km, and 8km.
 
 ## Installation
 
@@ -35,14 +36,17 @@ devtools::install_github("ManuelSpinola/crgrids")
 
 This is a basic example which shows you how to use crgrids:
 
-```{r example, message=FALSE, warning=FALSE}
+```{r}
 library(tidyverse)
 library(sf)
 library(crgrids)
 ```
 
-```{r cr_grid_8km}
+
+```{r}
 ggplot(cr_grid_8km) +
   geom_sf(fill = "dodgerblue3", color = "gray") +
   theme_minimal()
 ```
+
+
